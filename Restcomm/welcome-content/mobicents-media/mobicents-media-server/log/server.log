@@ -1,0 +1,424 @@
+2015-04-07 12:10:41,469 INFO  [Main] (main) log4j initialized from a configuration file.
+2015-04-07 12:10:41,469 INFO  [Main] (main) Home directory: /restcomm/mobicents-Restcomm-JBoss-AS7-7.2.0.576/mobicents-media/mobicents-media-server
+2015-04-07 12:10:41,473 INFO  [Main] (main) Booting from file:/restcomm/mobicents-Restcomm-JBoss-AS7-7.2.0.576/mobicents-media/mobicents-media-server/conf/bootstrap-beans.xml
+2015-04-07 12:10:42,830 INFO  [Configuration] (main) Configuring /restcomm/mobicents-Restcomm-JBoss-AS7-7.2.0.576/mobicents-media/mobicents-media-server/deploy/server-beans.xml
+2015-04-07 12:10:42,928 INFO  [Scheduler] (main) Starting 
+2015-04-07 12:10:42,930 INFO  [Scheduler] (main) Started 
+2015-04-07 12:10:43,135 INFO  [UdpManager] (main) Initialized UDP interface[unknown]: bind address=127.0.0.1
+2015-04-07 12:10:43,355 INFO  [MGCP] (main) Set server
+2015-04-07 12:10:43,355 INFO  [MGCP] (main) Set scheduler: org.mobicents.media.server.scheduler.Scheduler@22b236ac
+2015-04-07 12:10:43,386 INFO  [MGCP] (main) Starting MGCP controller
+2015-04-07 12:10:43,387 INFO  [MGCP] (main) Starting MGCP provider
+2015-04-07 12:10:43,392 INFO  [MgcpProvider] (main) Opening channel
+2015-04-07 12:10:43,465 INFO  [MgcpProvider] (main) Binding channel to 127.0.0.1:2427
+2015-04-07 12:10:43,482 INFO  [MGCP] (main) Controller started
+2015-04-07 12:10:43,491 INFO  [Server] (main) Installing mobicents/ivr/1
+2015-04-07 12:10:43,509 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/1
+2015-04-07 12:10:43,509 INFO  [Server] (main) Installing mobicents/ivr/2
+2015-04-07 12:10:43,510 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/2
+2015-04-07 12:10:43,510 INFO  [Server] (main) Installing mobicents/ivr/3
+2015-04-07 12:10:43,511 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/3
+2015-04-07 12:10:43,511 INFO  [Server] (main) Installing mobicents/ivr/4
+2015-04-07 12:10:43,512 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/4
+2015-04-07 12:10:43,512 INFO  [Server] (main) Installing mobicents/ivr/5
+2015-04-07 12:10:43,513 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/5
+2015-04-07 12:10:43,513 INFO  [Server] (main) Installing mobicents/ivr/6
+2015-04-07 12:10:43,514 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/6
+2015-04-07 12:10:43,514 INFO  [Server] (main) Installing mobicents/ivr/7
+2015-04-07 12:10:43,515 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/7
+2015-04-07 12:10:43,515 INFO  [Server] (main) Installing mobicents/ivr/8
+2015-04-07 12:10:43,516 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/8
+2015-04-07 12:10:43,516 INFO  [Server] (main) Installing mobicents/ivr/9
+2015-04-07 12:10:43,517 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/9
+2015-04-07 12:10:43,518 INFO  [Server] (main) Installing mobicents/ivr/10
+2015-04-07 12:10:43,518 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/10
+2015-04-07 12:10:43,519 INFO  [Server] (main) Installing mobicents/ivr/11
+2015-04-07 12:10:43,520 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/11
+2015-04-07 12:10:43,520 INFO  [Server] (main) Installing mobicents/ivr/12
+2015-04-07 12:10:43,520 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/12
+2015-04-07 12:10:43,521 INFO  [Server] (main) Installing mobicents/ivr/13
+2015-04-07 12:10:43,521 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/13
+2015-04-07 12:10:43,521 INFO  [Server] (main) Installing mobicents/ivr/14
+2015-04-07 12:10:43,522 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/14
+2015-04-07 12:10:43,522 INFO  [Server] (main) Installing mobicents/ivr/15
+2015-04-07 12:10:43,523 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/15
+2015-04-07 12:10:43,523 INFO  [Server] (main) Installing mobicents/ivr/16
+2015-04-07 12:10:43,527 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/16
+2015-04-07 12:10:43,527 INFO  [Server] (main) Installing mobicents/ivr/17
+2015-04-07 12:10:43,528 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/17
+2015-04-07 12:10:43,528 INFO  [Server] (main) Installing mobicents/ivr/18
+2015-04-07 12:10:43,529 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/18
+2015-04-07 12:10:43,529 INFO  [Server] (main) Installing mobicents/ivr/19
+2015-04-07 12:10:43,529 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/19
+2015-04-07 12:10:43,529 INFO  [Server] (main) Installing mobicents/ivr/20
+2015-04-07 12:10:43,530 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/20
+2015-04-07 12:10:43,530 INFO  [Server] (main) Installing mobicents/ivr/21
+2015-04-07 12:10:43,531 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/21
+2015-04-07 12:10:43,531 INFO  [Server] (main) Installing mobicents/ivr/22
+2015-04-07 12:10:43,532 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/22
+2015-04-07 12:10:43,532 INFO  [Server] (main) Installing mobicents/ivr/23
+2015-04-07 12:10:43,533 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/23
+2015-04-07 12:10:43,533 INFO  [Server] (main) Installing mobicents/ivr/24
+2015-04-07 12:10:43,533 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/24
+2015-04-07 12:10:43,534 INFO  [Server] (main) Installing mobicents/ivr/25
+2015-04-07 12:10:43,534 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/25
+2015-04-07 12:10:43,534 INFO  [Server] (main) Installing mobicents/ivr/26
+2015-04-07 12:10:43,535 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/26
+2015-04-07 12:10:43,535 INFO  [Server] (main) Installing mobicents/ivr/27
+2015-04-07 12:10:43,536 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/27
+2015-04-07 12:10:43,536 INFO  [Server] (main) Installing mobicents/ivr/28
+2015-04-07 12:10:43,537 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/28
+2015-04-07 12:10:43,537 INFO  [Server] (main) Installing mobicents/ivr/29
+2015-04-07 12:10:43,538 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/29
+2015-04-07 12:10:43,538 INFO  [Server] (main) Installing mobicents/ivr/30
+2015-04-07 12:10:43,539 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/30
+2015-04-07 12:10:43,539 INFO  [Server] (main) Installing mobicents/ivr/31
+2015-04-07 12:10:43,540 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/31
+2015-04-07 12:10:43,540 INFO  [Server] (main) Installing mobicents/ivr/32
+2015-04-07 12:10:43,540 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/32
+2015-04-07 12:10:43,541 INFO  [Server] (main) Installing mobicents/ivr/33
+2015-04-07 12:10:43,541 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/33
+2015-04-07 12:10:43,541 INFO  [Server] (main) Installing mobicents/ivr/34
+2015-04-07 12:10:43,542 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/34
+2015-04-07 12:10:43,542 INFO  [Server] (main) Installing mobicents/ivr/35
+2015-04-07 12:10:43,543 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/35
+2015-04-07 12:10:43,543 INFO  [Server] (main) Installing mobicents/ivr/36
+2015-04-07 12:10:43,544 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/36
+2015-04-07 12:10:43,544 INFO  [Server] (main) Installing mobicents/ivr/37
+2015-04-07 12:10:43,545 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/37
+2015-04-07 12:10:43,545 INFO  [Server] (main) Installing mobicents/ivr/38
+2015-04-07 12:10:43,545 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/38
+2015-04-07 12:10:43,545 INFO  [Server] (main) Installing mobicents/ivr/39
+2015-04-07 12:10:43,546 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/39
+2015-04-07 12:10:43,547 INFO  [Server] (main) Installing mobicents/ivr/40
+2015-04-07 12:10:43,548 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/40
+2015-04-07 12:10:43,548 INFO  [Server] (main) Installing mobicents/ivr/41
+2015-04-07 12:10:43,548 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/41
+2015-04-07 12:10:43,548 INFO  [Server] (main) Installing mobicents/ivr/42
+2015-04-07 12:10:43,549 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/42
+2015-04-07 12:10:43,549 INFO  [Server] (main) Installing mobicents/ivr/43
+2015-04-07 12:10:43,550 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/43
+2015-04-07 12:10:43,550 INFO  [Server] (main) Installing mobicents/ivr/44
+2015-04-07 12:10:43,551 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/44
+2015-04-07 12:10:43,551 INFO  [Server] (main) Installing mobicents/ivr/45
+2015-04-07 12:10:43,552 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/45
+2015-04-07 12:10:43,552 INFO  [Server] (main) Installing mobicents/ivr/46
+2015-04-07 12:10:43,553 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/46
+2015-04-07 12:10:43,553 INFO  [Server] (main) Installing mobicents/ivr/47
+2015-04-07 12:10:43,553 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/47
+2015-04-07 12:10:43,554 INFO  [Server] (main) Installing mobicents/ivr/48
+2015-04-07 12:10:43,554 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/48
+2015-04-07 12:10:43,554 INFO  [Server] (main) Installing mobicents/ivr/49
+2015-04-07 12:10:43,555 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/49
+2015-04-07 12:10:43,555 INFO  [Server] (main) Installing mobicents/ivr/50
+2015-04-07 12:10:43,556 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/50
+2015-04-07 12:10:43,561 INFO  [Server] (main) Installing mobicents/cnf/1
+2015-04-07 12:10:43,561 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/1
+2015-04-07 12:10:43,561 INFO  [Server] (main) Installing mobicents/cnf/2
+2015-04-07 12:10:43,561 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/2
+2015-04-07 12:10:43,561 INFO  [Server] (main) Installing mobicents/cnf/3
+2015-04-07 12:10:43,562 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/3
+2015-04-07 12:10:43,562 INFO  [Server] (main) Installing mobicents/cnf/4
+2015-04-07 12:10:43,562 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/4
+2015-04-07 12:10:43,562 INFO  [Server] (main) Installing mobicents/cnf/5
+2015-04-07 12:10:43,562 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/5
+2015-04-07 12:10:43,562 INFO  [Server] (main) Installing mobicents/cnf/6
+2015-04-07 12:10:43,563 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/6
+2015-04-07 12:10:43,563 INFO  [Server] (main) Installing mobicents/cnf/7
+2015-04-07 12:10:43,563 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/7
+2015-04-07 12:10:43,563 INFO  [Server] (main) Installing mobicents/cnf/8
+2015-04-07 12:10:43,563 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/8
+2015-04-07 12:10:43,563 INFO  [Server] (main) Installing mobicents/cnf/9
+2015-04-07 12:10:43,564 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/9
+2015-04-07 12:10:43,564 INFO  [Server] (main) Installing mobicents/cnf/10
+2015-04-07 12:10:43,564 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/10
+2015-04-07 12:10:43,564 INFO  [Server] (main) Installing mobicents/cnf/11
+2015-04-07 12:10:43,564 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/11
+2015-04-07 12:10:43,564 INFO  [Server] (main) Installing mobicents/cnf/12
+2015-04-07 12:10:43,565 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/12
+2015-04-07 12:10:43,565 INFO  [Server] (main) Installing mobicents/cnf/13
+2015-04-07 12:10:43,565 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/13
+2015-04-07 12:10:43,565 INFO  [Server] (main) Installing mobicents/cnf/14
+2015-04-07 12:10:43,565 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/14
+2015-04-07 12:10:43,565 INFO  [Server] (main) Installing mobicents/cnf/15
+2015-04-07 12:10:43,566 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/15
+2015-04-07 12:10:43,566 INFO  [Server] (main) Installing mobicents/cnf/16
+2015-04-07 12:10:43,566 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/16
+2015-04-07 12:10:43,566 INFO  [Server] (main) Installing mobicents/cnf/17
+2015-04-07 12:10:43,566 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/17
+2015-04-07 12:10:43,566 INFO  [Server] (main) Installing mobicents/cnf/18
+2015-04-07 12:10:43,567 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/18
+2015-04-07 12:10:43,567 INFO  [Server] (main) Installing mobicents/cnf/19
+2015-04-07 12:10:43,567 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/19
+2015-04-07 12:10:43,567 INFO  [Server] (main) Installing mobicents/cnf/20
+2015-04-07 12:10:43,567 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/20
+2015-04-07 12:10:43,567 INFO  [Server] (main) Installing mobicents/cnf/21
+2015-04-07 12:10:43,568 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/21
+2015-04-07 12:10:43,568 INFO  [Server] (main) Installing mobicents/cnf/22
+2015-04-07 12:10:43,568 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/22
+2015-04-07 12:10:43,568 INFO  [Server] (main) Installing mobicents/cnf/23
+2015-04-07 12:10:43,568 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/23
+2015-04-07 12:10:43,568 INFO  [Server] (main) Installing mobicents/cnf/24
+2015-04-07 12:10:43,569 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/24
+2015-04-07 12:10:43,569 INFO  [Server] (main) Installing mobicents/cnf/25
+2015-04-07 12:10:43,569 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/25
+2015-04-07 12:10:43,569 INFO  [Server] (main) Installing mobicents/cnf/26
+2015-04-07 12:10:43,570 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/26
+2015-04-07 12:10:43,570 INFO  [Server] (main) Installing mobicents/cnf/27
+2015-04-07 12:10:43,570 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/27
+2015-04-07 12:10:43,570 INFO  [Server] (main) Installing mobicents/cnf/28
+2015-04-07 12:10:43,570 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/28
+2015-04-07 12:10:43,571 INFO  [Server] (main) Installing mobicents/cnf/29
+2015-04-07 12:10:43,571 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/29
+2015-04-07 12:10:43,571 INFO  [Server] (main) Installing mobicents/cnf/30
+2015-04-07 12:10:43,571 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/30
+2015-04-07 12:10:43,571 INFO  [Server] (main) Installing mobicents/cnf/31
+2015-04-07 12:10:43,571 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/31
+2015-04-07 12:10:43,571 INFO  [Server] (main) Installing mobicents/cnf/32
+2015-04-07 12:10:43,572 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/32
+2015-04-07 12:10:43,572 INFO  [Server] (main) Installing mobicents/cnf/33
+2015-04-07 12:10:43,572 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/33
+2015-04-07 12:10:43,572 INFO  [Server] (main) Installing mobicents/cnf/34
+2015-04-07 12:10:43,572 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/34
+2015-04-07 12:10:43,572 INFO  [Server] (main) Installing mobicents/cnf/35
+2015-04-07 12:10:43,573 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/35
+2015-04-07 12:10:43,573 INFO  [Server] (main) Installing mobicents/cnf/36
+2015-04-07 12:10:43,573 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/36
+2015-04-07 12:10:43,573 INFO  [Server] (main) Installing mobicents/cnf/37
+2015-04-07 12:10:43,573 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/37
+2015-04-07 12:10:43,573 INFO  [Server] (main) Installing mobicents/cnf/38
+2015-04-07 12:10:43,574 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/38
+2015-04-07 12:10:43,574 INFO  [Server] (main) Installing mobicents/cnf/39
+2015-04-07 12:10:43,574 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/39
+2015-04-07 12:10:43,574 INFO  [Server] (main) Installing mobicents/cnf/40
+2015-04-07 12:10:43,574 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/40
+2015-04-07 12:10:43,574 INFO  [Server] (main) Installing mobicents/cnf/41
+2015-04-07 12:10:43,574 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/41
+2015-04-07 12:10:43,575 INFO  [Server] (main) Installing mobicents/cnf/42
+2015-04-07 12:10:43,575 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/42
+2015-04-07 12:10:43,575 INFO  [Server] (main) Installing mobicents/cnf/43
+2015-04-07 12:10:43,575 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/43
+2015-04-07 12:10:43,575 INFO  [Server] (main) Installing mobicents/cnf/44
+2015-04-07 12:10:43,575 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/44
+2015-04-07 12:10:43,575 INFO  [Server] (main) Installing mobicents/cnf/45
+2015-04-07 12:10:43,576 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/45
+2015-04-07 12:10:43,576 INFO  [Server] (main) Installing mobicents/cnf/46
+2015-04-07 12:10:43,576 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/46
+2015-04-07 12:10:43,576 INFO  [Server] (main) Installing mobicents/cnf/47
+2015-04-07 12:10:43,576 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/47
+2015-04-07 12:10:43,576 INFO  [Server] (main) Installing mobicents/cnf/48
+2015-04-07 12:10:43,577 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/48
+2015-04-07 12:10:43,577 INFO  [Server] (main) Installing mobicents/cnf/49
+2015-04-07 12:10:43,577 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/49
+2015-04-07 12:10:43,577 INFO  [Server] (main) Installing mobicents/cnf/50
+2015-04-07 12:10:43,577 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/50
+2015-04-07 12:10:43,583 INFO  [Server] (main) Installing mobicents/bridge/1
+2015-04-07 12:10:43,585 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/1
+2015-04-07 12:10:43,585 INFO  [Server] (main) Installing mobicents/bridge/2
+2015-04-07 12:10:43,585 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/2
+2015-04-07 12:10:43,585 INFO  [Server] (main) Installing mobicents/bridge/3
+2015-04-07 12:10:43,586 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/3
+2015-04-07 12:10:43,586 INFO  [Server] (main) Installing mobicents/bridge/4
+2015-04-07 12:10:43,586 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/4
+2015-04-07 12:10:43,586 INFO  [Server] (main) Installing mobicents/bridge/5
+2015-04-07 12:10:43,586 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/5
+2015-04-07 12:10:43,586 INFO  [Server] (main) Installing mobicents/bridge/6
+2015-04-07 12:10:43,587 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/6
+2015-04-07 12:10:43,587 INFO  [Server] (main) Installing mobicents/bridge/7
+2015-04-07 12:10:43,587 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/7
+2015-04-07 12:10:43,587 INFO  [Server] (main) Installing mobicents/bridge/8
+2015-04-07 12:10:43,587 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/8
+2015-04-07 12:10:43,587 INFO  [Server] (main) Installing mobicents/bridge/9
+2015-04-07 12:10:43,588 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/9
+2015-04-07 12:10:43,588 INFO  [Server] (main) Installing mobicents/bridge/10
+2015-04-07 12:10:43,588 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/10
+2015-04-07 12:10:43,588 INFO  [Server] (main) Installing mobicents/bridge/11
+2015-04-07 12:10:43,588 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/11
+2015-04-07 12:10:43,588 INFO  [Server] (main) Installing mobicents/bridge/12
+2015-04-07 12:10:43,588 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/12
+2015-04-07 12:10:43,589 INFO  [Server] (main) Installing mobicents/bridge/13
+2015-04-07 12:10:43,589 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/13
+2015-04-07 12:10:43,589 INFO  [Server] (main) Installing mobicents/bridge/14
+2015-04-07 12:10:43,589 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/14
+2015-04-07 12:10:43,589 INFO  [Server] (main) Installing mobicents/bridge/15
+2015-04-07 12:10:43,598 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/15
+2015-04-07 12:10:43,598 INFO  [Server] (main) Installing mobicents/bridge/16
+2015-04-07 12:10:43,599 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/16
+2015-04-07 12:10:43,599 INFO  [Server] (main) Installing mobicents/bridge/17
+2015-04-07 12:10:43,599 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/17
+2015-04-07 12:10:43,599 INFO  [Server] (main) Installing mobicents/bridge/18
+2015-04-07 12:10:43,600 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/18
+2015-04-07 12:10:43,600 INFO  [Server] (main) Installing mobicents/bridge/19
+2015-04-07 12:10:43,600 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/19
+2015-04-07 12:10:43,600 INFO  [Server] (main) Installing mobicents/bridge/20
+2015-04-07 12:10:43,601 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/20
+2015-04-07 12:10:43,601 INFO  [Server] (main) Installing mobicents/bridge/21
+2015-04-07 12:10:43,601 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/21
+2015-04-07 12:10:43,601 INFO  [Server] (main) Installing mobicents/bridge/22
+2015-04-07 12:10:43,601 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/22
+2015-04-07 12:10:43,602 INFO  [Server] (main) Installing mobicents/bridge/23
+2015-04-07 12:10:43,602 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/23
+2015-04-07 12:10:43,602 INFO  [Server] (main) Installing mobicents/bridge/24
+2015-04-07 12:10:43,602 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/24
+2015-04-07 12:10:43,602 INFO  [Server] (main) Installing mobicents/bridge/25
+2015-04-07 12:10:43,603 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/25
+2015-04-07 12:10:43,603 INFO  [Server] (main) Installing mobicents/bridge/26
+2015-04-07 12:10:43,603 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/26
+2015-04-07 12:10:43,604 INFO  [Server] (main) Installing mobicents/bridge/27
+2015-04-07 12:10:43,604 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/27
+2015-04-07 12:10:43,604 INFO  [Server] (main) Installing mobicents/bridge/28
+2015-04-07 12:10:43,605 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/28
+2015-04-07 12:10:43,605 INFO  [Server] (main) Installing mobicents/bridge/29
+2015-04-07 12:10:43,606 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/29
+2015-04-07 12:10:43,606 INFO  [Server] (main) Installing mobicents/bridge/30
+2015-04-07 12:10:43,606 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/30
+2015-04-07 12:10:43,606 INFO  [Server] (main) Installing mobicents/bridge/31
+2015-04-07 12:10:43,607 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/31
+2015-04-07 12:10:43,607 INFO  [Server] (main) Installing mobicents/bridge/32
+2015-04-07 12:10:43,607 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/32
+2015-04-07 12:10:43,607 INFO  [Server] (main) Installing mobicents/bridge/33
+2015-04-07 12:10:43,608 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/33
+2015-04-07 12:10:43,608 INFO  [Server] (main) Installing mobicents/bridge/34
+2015-04-07 12:10:43,608 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/34
+2015-04-07 12:10:43,608 INFO  [Server] (main) Installing mobicents/bridge/35
+2015-04-07 12:10:43,608 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/35
+2015-04-07 12:10:43,608 INFO  [Server] (main) Installing mobicents/bridge/36
+2015-04-07 12:10:43,608 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/36
+2015-04-07 12:10:43,609 INFO  [Server] (main) Installing mobicents/bridge/37
+2015-04-07 12:10:43,609 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/37
+2015-04-07 12:10:43,609 INFO  [Server] (main) Installing mobicents/bridge/38
+2015-04-07 12:10:43,609 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/38
+2015-04-07 12:10:43,609 INFO  [Server] (main) Installing mobicents/bridge/39
+2015-04-07 12:10:43,609 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/39
+2015-04-07 12:10:43,609 INFO  [Server] (main) Installing mobicents/bridge/40
+2015-04-07 12:10:43,610 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/40
+2015-04-07 12:10:43,610 INFO  [Server] (main) Installing mobicents/bridge/41
+2015-04-07 12:10:43,610 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/41
+2015-04-07 12:10:43,610 INFO  [Server] (main) Installing mobicents/bridge/42
+2015-04-07 12:10:43,610 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/42
+2015-04-07 12:10:43,610 INFO  [Server] (main) Installing mobicents/bridge/43
+2015-04-07 12:10:43,611 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/43
+2015-04-07 12:10:43,611 INFO  [Server] (main) Installing mobicents/bridge/44
+2015-04-07 12:10:43,611 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/44
+2015-04-07 12:10:43,611 INFO  [Server] (main) Installing mobicents/bridge/45
+2015-04-07 12:10:43,611 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/45
+2015-04-07 12:10:43,611 INFO  [Server] (main) Installing mobicents/bridge/46
+2015-04-07 12:10:43,611 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/46
+2015-04-07 12:10:43,612 INFO  [Server] (main) Installing mobicents/bridge/47
+2015-04-07 12:10:43,612 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/47
+2015-04-07 12:10:43,612 INFO  [Server] (main) Installing mobicents/bridge/48
+2015-04-07 12:10:43,612 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/48
+2015-04-07 12:10:43,612 INFO  [Server] (main) Installing mobicents/bridge/49
+2015-04-07 12:10:43,613 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/49
+2015-04-07 12:10:43,613 INFO  [Server] (main) Installing mobicents/bridge/50
+2015-04-07 12:10:43,613 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/50
+2015-04-07 12:10:43,618 INFO  [Server] (main) Installing mobicents/relay/1
+2015-04-07 12:10:43,618 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/1
+2015-04-07 12:10:43,618 INFO  [Server] (main) Installing mobicents/relay/2
+2015-04-07 12:10:43,618 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/2
+2015-04-07 12:10:43,618 INFO  [Server] (main) Installing mobicents/relay/3
+2015-04-07 12:10:43,618 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/3
+2015-04-07 12:10:43,619 INFO  [Server] (main) Installing mobicents/relay/4
+2015-04-07 12:10:43,619 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/4
+2015-04-07 12:10:43,619 INFO  [Server] (main) Installing mobicents/relay/5
+2015-04-07 12:10:43,619 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/5
+2015-04-07 12:10:43,619 INFO  [Server] (main) Installing mobicents/relay/6
+2015-04-07 12:10:43,619 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/6
+2015-04-07 12:10:43,620 INFO  [Server] (main) Installing mobicents/relay/7
+2015-04-07 12:10:43,620 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/7
+2015-04-07 12:10:43,620 INFO  [Server] (main) Installing mobicents/relay/8
+2015-04-07 12:10:43,620 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/8
+2015-04-07 12:10:43,620 INFO  [Server] (main) Installing mobicents/relay/9
+2015-04-07 12:10:43,620 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/9
+2015-04-07 12:10:43,621 INFO  [Server] (main) Installing mobicents/relay/10
+2015-04-07 12:10:43,621 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/10
+2015-04-07 12:10:43,621 INFO  [Server] (main) Installing mobicents/relay/11
+2015-04-07 12:10:43,621 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/11
+2015-04-07 12:10:43,621 INFO  [Server] (main) Installing mobicents/relay/12
+2015-04-07 12:10:43,621 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/12
+2015-04-07 12:10:43,621 INFO  [Server] (main) Installing mobicents/relay/13
+2015-04-07 12:10:43,622 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/13
+2015-04-07 12:10:43,622 INFO  [Server] (main) Installing mobicents/relay/14
+2015-04-07 12:10:43,622 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/14
+2015-04-07 12:10:43,622 INFO  [Server] (main) Installing mobicents/relay/15
+2015-04-07 12:10:43,622 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/15
+2015-04-07 12:10:43,623 INFO  [Server] (main) Installing mobicents/relay/16
+2015-04-07 12:10:43,623 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/16
+2015-04-07 12:10:43,623 INFO  [Server] (main) Installing mobicents/relay/17
+2015-04-07 12:10:43,623 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/17
+2015-04-07 12:10:43,623 INFO  [Server] (main) Installing mobicents/relay/18
+2015-04-07 12:10:43,623 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/18
+2015-04-07 12:10:43,624 INFO  [Server] (main) Installing mobicents/relay/19
+2015-04-07 12:10:43,624 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/19
+2015-04-07 12:10:43,624 INFO  [Server] (main) Installing mobicents/relay/20
+2015-04-07 12:10:43,624 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/20
+2015-04-07 12:10:43,624 INFO  [Server] (main) Installing mobicents/relay/21
+2015-04-07 12:10:43,624 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/21
+2015-04-07 12:10:43,624 INFO  [Server] (main) Installing mobicents/relay/22
+2015-04-07 12:10:43,625 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/22
+2015-04-07 12:10:43,625 INFO  [Server] (main) Installing mobicents/relay/23
+2015-04-07 12:10:43,625 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/23
+2015-04-07 12:10:43,625 INFO  [Server] (main) Installing mobicents/relay/24
+2015-04-07 12:10:43,625 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/24
+2015-04-07 12:10:43,625 INFO  [Server] (main) Installing mobicents/relay/25
+2015-04-07 12:10:43,625 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/25
+2015-04-07 12:10:43,626 INFO  [Server] (main) Installing mobicents/relay/26
+2015-04-07 12:10:43,626 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/26
+2015-04-07 12:10:43,626 INFO  [Server] (main) Installing mobicents/relay/27
+2015-04-07 12:10:43,626 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/27
+2015-04-07 12:10:43,626 INFO  [Server] (main) Installing mobicents/relay/28
+2015-04-07 12:10:43,626 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/28
+2015-04-07 12:10:43,626 INFO  [Server] (main) Installing mobicents/relay/29
+2015-04-07 12:10:43,627 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/29
+2015-04-07 12:10:43,627 INFO  [Server] (main) Installing mobicents/relay/30
+2015-04-07 12:10:43,627 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/30
+2015-04-07 12:10:43,627 INFO  [Server] (main) Installing mobicents/relay/31
+2015-04-07 12:10:43,627 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/31
+2015-04-07 12:10:43,627 INFO  [Server] (main) Installing mobicents/relay/32
+2015-04-07 12:10:43,627 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/32
+2015-04-07 12:10:43,628 INFO  [Server] (main) Installing mobicents/relay/33
+2015-04-07 12:10:43,628 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/33
+2015-04-07 12:10:43,628 INFO  [Server] (main) Installing mobicents/relay/34
+2015-04-07 12:10:43,628 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/34
+2015-04-07 12:10:43,628 INFO  [Server] (main) Installing mobicents/relay/35
+2015-04-07 12:10:43,628 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/35
+2015-04-07 12:10:43,628 INFO  [Server] (main) Installing mobicents/relay/36
+2015-04-07 12:10:43,629 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/36
+2015-04-07 12:10:43,629 INFO  [Server] (main) Installing mobicents/relay/37
+2015-04-07 12:10:43,629 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/37
+2015-04-07 12:10:43,629 INFO  [Server] (main) Installing mobicents/relay/38
+2015-04-07 12:10:43,629 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/38
+2015-04-07 12:10:43,630 INFO  [Server] (main) Installing mobicents/relay/39
+2015-04-07 12:10:43,630 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/39
+2015-04-07 12:10:43,630 INFO  [Server] (main) Installing mobicents/relay/40
+2015-04-07 12:10:43,630 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/40
+2015-04-07 12:10:43,630 INFO  [Server] (main) Installing mobicents/relay/41
+2015-04-07 12:10:43,631 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/41
+2015-04-07 12:10:43,631 INFO  [Server] (main) Installing mobicents/relay/42
+2015-04-07 12:10:43,631 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/42
+2015-04-07 12:10:43,631 INFO  [Server] (main) Installing mobicents/relay/43
+2015-04-07 12:10:43,631 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/43
+2015-04-07 12:10:43,631 INFO  [Server] (main) Installing mobicents/relay/44
+2015-04-07 12:10:43,632 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/44
+2015-04-07 12:10:43,632 INFO  [Server] (main) Installing mobicents/relay/45
+2015-04-07 12:10:43,632 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/45
+2015-04-07 12:10:43,632 INFO  [Server] (main) Installing mobicents/relay/46
+2015-04-07 12:10:43,633 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/46
+2015-04-07 12:10:43,633 INFO  [Server] (main) Installing mobicents/relay/47
+2015-04-07 12:10:43,633 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/47
+2015-04-07 12:10:43,633 INFO  [Server] (main) Installing mobicents/relay/48
+2015-04-07 12:10:43,634 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/48
+2015-04-07 12:10:43,634 INFO  [Server] (main) Installing mobicents/relay/49
+2015-04-07 12:10:43,634 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/49
+2015-04-07 12:10:43,634 INFO  [Server] (main) Installing mobicents/relay/50
+2015-04-07 12:10:43,634 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/50
+2015-04-07 12:10:43,635 INFO  [MainDeployer] (main) Calling Garbage collector to clear init data
+2015-04-07 12:10:43,698 INFO  [MainDeployer] (main) [[[[[[[[[ Mobicents Media Server: release.version=3.0.0.FINAL Started ]]]]]]]]]
+2015-04-07 12:10:45,798 INFO  [MGCP] (Thread-0) Controller stopped
+2015-04-07 12:10:45,798 INFO  [MGCP] (Thread-0) Set server
+2015-04-07 12:10:45,803 INFO  [MGCP] (Thread-0) Set scheduler: null
+2015-04-07 12:10:45,803 INFO  [Server] (Thread-0) Stopping UDP Manager
+2015-04-07 12:10:45,803 INFO  [UdpManager] (Thread-0) Stopped
+2015-04-07 12:10:45,803 INFO  [Server] (Thread-0) Stopping scheduler
+2015-04-07 12:10:45,844 INFO  [Server] (Thread-0) Stopped media server instance 
+2015-04-07 12:10:45,912 INFO  [MainDeployer] (Thread-0) Stopped

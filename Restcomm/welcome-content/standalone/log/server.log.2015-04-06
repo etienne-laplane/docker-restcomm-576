@@ -1,0 +1,42 @@
+17:03:36,673 INFO  [gov.nist.javax.sip.stack.NioTcpMessageProcessor] (NioSelector-WS-127.0.0.1/5082) Selector is closed
+17:03:37,907 INFO  [org.jboss.web] (ServerService Thread Pool -- 59) JBAS018224: Unregister web context: /webrtc
+17:03:37,907 INFO  [org.jboss.web] (ServerService Thread Pool -- 60) JBAS018224: Unregister web context: /jolokia
+17:03:37,907 INFO  [org.jboss.web] (ServerService Thread Pool -- 64) JBAS018224: Unregister web context: /sip-servlets-management
+17:03:37,908 INFO  [org.jboss.web] (ServerService Thread Pool -- 62) JBAS018224: Unregister web context: /RvdExternalServicesDemo
+17:03:37,908 INFO  [org.jboss.web] (ServerService Thread Pool -- 63) JBAS018224: Unregister web context: /restcomm
+17:03:37,907 INFO  [org.jboss.web] (ServerService Thread Pool -- 61) JBAS018224: Unregister web context: /restcomm-rvd
+17:03:37,844 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018224: Unregister web context: /restcomm-management
+17:03:36,764 INFO  [gov.nist.javax.sip.stack.NioTcpMessageProcessor] (NioSelector-TLS-127.0.0.1/5081) Selector is closed
+17:03:36,748 INFO  [gov.nist.javax.sip.stack.NioTcpMessageProcessor] (NioSelector-TCP-127.0.0.1/5080) Selector is closed
+17:03:36,696 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+17:03:38,382 WARN  [org.mobicents.servlet.sip.startup.SipStandardContext] (ServerService Thread Pool -- 59) number of active sip sessions : 0
+17:03:38,386 WARN  [org.mobicents.servlet.sip.startup.SipStandardContext] (ServerService Thread Pool -- 59) number of active sip application sessions : 0
+17:03:38,382 WARN  [org.mobicents.servlet.sip.startup.SipStandardContext] (ServerService Thread Pool -- 63) number of active sip sessions : 0
+17:03:38,497 WARN  [org.mobicents.servlet.sip.startup.SipStandardContext] (ServerService Thread Pool -- 63) number of active sip application sessions : 0
+17:03:38,868 INFO  [gov.nist.javax.sip.stack.timers.DefaultSipTimer] (MSC service thread 1-4) the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been stopped
+17:03:38,533 WARN  [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC00004: Failure during stop of service jboss.sip.connector.sip-tls: java.util.ConcurrentModificationException
+	at java.util.LinkedList$ListItr.checkForComodification(LinkedList.java:953) [rt.jar:1.7.0_65]
+	at java.util.LinkedList$ListItr.next(LinkedList.java:886) [rt.jar:1.7.0_65]
+	at gov.nist.javax.sip.SipProviderImpl.removeSipListener(SipProviderImpl.java:665)
+	at org.mobicents.servlet.sip.catalina.SipStandardService.removeConnector(SipStandardService.java:222)
+	at org.mobicents.as7.SipServerService.removeConnector(SipServerService.java:275)
+	at org.mobicents.as7.SipConnectorService.stop(SipConnectorService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.4.GA.jar:1.0.4.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.4.GA.jar:1.0.4.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_65]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_65]
+
+17:03:39,492 INFO  [org.apache.coyote.http11] (MSC service thread 1-10) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+17:03:39,494 INFO  [org.apache.coyote.http11] (MSC service thread 1-10) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+17:03:40,101 INFO  [org.mobicents.servlet.sip.core.timers.TimerServiceImpl] (ServerService Thread Pool -- 59) Stopped timer service org.mobicents.servlet.sip.core.timers.TimerServiceImpl@47fc2f68
+17:03:40,305 INFO  [gov.nist.javax.sip.stack.timers.DefaultSipTimer] (MSC service thread 1-1) the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been stopped
+17:03:40,997 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015877: Stopped deployment sip-servlets-management.war (runtime-name: sip-servlets-management.war) in 5167ms
+17:03:41,039 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment restcomm-management.war (runtime-name: restcomm-management.war) in 5210ms
+17:03:40,980 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment jolokia.war (runtime-name: jolokia.war) in 5152ms
+17:03:40,996 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015877: Stopped deployment webrtc.war (runtime-name: webrtc.war) in 5165ms
+17:03:40,988 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015877: Stopped deployment RvdExternalServicesDemo.war (runtime-name: RvdExternalServicesDemo.war) in 5159ms
+17:03:41,203 INFO  [org.mobicents.servlet.sip.core.timers.TimerServiceImpl] (ServerService Thread Pool -- 63) Stopped timer service org.mobicents.servlet.sip.core.timers.TimerServiceImpl@5fd24628
+17:03:41,873 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015877: Stopped deployment restcomm-rvd.war (runtime-name: restcomm-rvd.war) in 6045ms
+17:03:42,418 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment restcomm.war (runtime-name: restcomm.war) in 6558ms
+17:03:42,447 INFO  [org.jboss.as] (MSC service thread 1-13) JBAS015950: JBoss AS 7.2.0.Final "Janus" stopped in 6583ms

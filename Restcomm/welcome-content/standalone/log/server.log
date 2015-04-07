@@ -1,0 +1,4 @@
+12:10:42,313 INFO  [org.jboss.modules] (main) JBoss Modules version 1.2.0.CR1
+12:10:43,732 INFO  [org.jboss.msc] (main) JBoss MSC version 1.0.4.GA
+12:10:43,836 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss AS 7.2.0.Final "Janus" starting
+12:10:45,793 INFO  [org.jboss.as] (MSC service thread 1-10) JBAS015950: JBoss AS 7.2.0.Final "Janus" stopped in 6ms
