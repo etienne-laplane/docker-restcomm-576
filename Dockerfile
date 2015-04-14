@@ -1,5 +1,5 @@
 #Dockerfile for Restcomm 576 build and configured as a local server	
-FROM ubuntu:14.04
+FROM java:7
 MAINTAINER Etienne Laplane <etienne.laplane@dynamease.com>
 
 RUN mkdir /Restcomm/
@@ -12,5 +12,7 @@ RUN apt-get update -y
 RUN apt-get upgrade -y
 RUN apt-get install -y ipcalc
 RUN apt-get install -y screen
+RUN apt-get install -y nano
+RUN apt-get install -y net-tools
 
 CMD ["/Restcomm/bin/restcomm/start-restcomm.sh"] 
