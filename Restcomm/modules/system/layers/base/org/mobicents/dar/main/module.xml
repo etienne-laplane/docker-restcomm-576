@@ -22,7 +22,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.mobicents.dar">
     <resources>
-        <resource-root path="sip-servlets-application-router-3.0.564.jar"/>
+        <resource-root path="sip-servlets-application-router-3.1.601.jar"/>
         <!-- Insert resources here -->
     </resources>
 

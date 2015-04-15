@@ -24,12 +24,12 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.mobicents.libs">
     <resources>
-        <resource-root path="sip-servlets-as7-3.0.564.jar"/>
-        <resource-root path="sip-servlets-core-api-3.0.564.jar"/>
-        <resource-root path="sip-servlets-impl-3.0.564.jar"/>
+        <resource-root path="sip-servlets-as7-3.1.601.jar"/>
+        <resource-root path="sip-servlets-core-api-3.1.601.jar"/>
+        <resource-root path="sip-servlets-impl-3.1.601.jar"/>
         <resource-root path="jain-sip-api-1.2.0.jar"/>
-        <resource-root path="mobicents-jain-sip-ext-1.3.3.jar"/>
-        <resource-root path="jain-sip-ri-1.2.228.jar"/>
+        <resource-root path="mobicents-jain-sip-ext-1.3.4.jar"/>
+        <resource-root path="jain-sip-ri-1.2.232.jar"/>
         <resource-root path="mobicents-jain-sip-ha-core-1.5.5.jar"/>
         <resource-root path="sip-balancer-jar-1.7.6.jar"/>
         <resource-root path="dnsjava-2.0.6.jar"/>

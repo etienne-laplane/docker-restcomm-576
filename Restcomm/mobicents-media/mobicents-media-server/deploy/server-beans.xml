@@ -18,12 +18,10 @@
         </constructor>
         <property name="bindAddress">127.0.0.1</property>
         <property name="localBindAddress">127.0.0.1</property>
-		<property name="localNetwork">192.168.1.0</property>
-		<property name="localSubnet">255.255.255.0</property>
-		<property name="useSbc">true</property>
+		<property name="localNetwork">127.0.0.1</property>
+		<property name="localSubnet">255.255.255.255</property>
+		<property name="useSbc">false</property>
 		<property name="rtpTimeout">0</property>
-    <property name="highestPort">65535</property>
-    <property name="lowestPort">64534</property>
     </bean>
 
     <!-- SS7 interface definition -->
@@ -53,6 +51,8 @@
                 <value>org.mobicents.media.server.impl.dsp.audio.g711.alaw.Decoder</value>
                 <value>org.mobicents.media.server.impl.dsp.audio.g711.ulaw.Encoder</value>
                 <value>org.mobicents.media.server.impl.dsp.audio.g711.ulaw.Decoder</value>
+                <value>org.mobicents.media.server.impl.dsp.audio.gsm.Encoder</value>
+                <value>org.mobicents.media.server.impl.dsp.audio.gsm.Decoder</value>
             </list>
         </property>
     </bean>

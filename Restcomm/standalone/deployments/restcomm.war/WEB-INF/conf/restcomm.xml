@@ -23,28 +23,30 @@
 
 		<!-- The path where recordings made by the <Record> verb are stored. -->
 		<recordings-path>file://${restcomm:home}/recordings</recordings-path>
-		<recordings-uri>http://127.0.0.1:8080/restcomm/recordings
-		</recordings-uri>
+		<recordings-uri>http://127.0.0.1:8080/restcomm/recordings</recordings-uri>
 
 		<!-- The URL to the errors dictionary. -->
-		<error-dictionary-uri>http://127.0.0.1:8080/restcomm/errors
-		</error-dictionary-uri>
+		<error-dictionary-uri>http://127.0.0.1:8080/restcomm/errors</error-dictionary-uri>
 
 		<!-- The IP to use for out-bound SIP REGISTER requests. This is useful 
 			when you want to report a different IP than the one RestComm picked by default. -->
-		<external-ip>127.0.0.1</external-ip>
+		<external-ip></external-ip>
 
 		<!-- If set to true RestComm will use the To header to determine the destination. 
 			If set to false RestComm will use the Request URI to determine the destination. -->
 		<use-to>true</use-to>
+
+		<!-- If set to true Restcomm will use the Local Address (or external address if available) 
+		     in the host part of the From header for calls to the outbound proxy. 
+		     Default is False, which means that Restcomm will use outbound proxy for the host part of From header -->
+		<use-local-address>false</use-local-address>
 
 		<!-- If set to true Restcomm will authenticate users and incoming messages from those users -->
 		<authenticate>true</authenticate>
 		
 		<!-- If set to FALSE Restcomm wont normalize phone numbers (prepend +1) 
 			when creating an outbound call -->
-		<normalize-numbers-for-outbound-calls>false
-		</normalize-numbers-for-outbound-calls>
+		<normalize-numbers-for-outbound-calls>false</normalize-numbers-for-outbound-calls>
 		<!--If set to TRUE Restcomm will use the From address of initial call as 
 			caller-id for calls created with Dial Number. Caller A (callerId A) dials 
 			DID XYZ that is bind to RCML that Dials Number 4321. If from-address-to-proxied-calls 
@@ -55,13 +57,12 @@
 			<!-- Parameters for primary outbound proxy. -->
 			<outbound-proxy-user></outbound-proxy-user>
 			<outbound-proxy-password></outbound-proxy-password>
-			<outbound-proxy-uri></outbound-proxy-uri>
+			<outbound-proxy-uri>127.0.0.1:5070</outbound-proxy-uri>
 
 			<!-- Parameters for fallback outbound proxy. -->
 			<fallback-outbound-proxy-user></fallback-outbound-proxy-user>
 			<fallback-outbound-proxy-password></fallback-outbound-proxy-password>
-			<fallback-outbound-proxy-uri>127.0.0.1:5090
-			</fallback-outbound-proxy-uri>
+			<fallback-outbound-proxy-uri>127.0.0.1:5090</fallback-outbound-proxy-uri>
 
 			<!-- Allow fallback to backup proxy -->
 			<allow-fallback>false</allow-fallback>
@@ -198,7 +199,7 @@
 			<remote-address>127.0.0.1</remote-address>
 			<remote-port>2427</remote-port>
 			<response-timeout>500</response-timeout>
-			<external-address>127.0.0.1</external-address>
+			<!-- <external-address></external-address> -->
 		</mgcp-server>
 	</media-server-manager>
 
@@ -206,8 +207,8 @@
 		inside of RestComm. Refer to the org.mobicents.servlet.sip.restcomm.SmsAggregator 
 		interface for more information. -->
 	<sms-aggregator class="org.mobicents.servlet.restcomm.sms.SmsService">
-		<outbound-prefix>#</outbound-prefix>
-		<outbound-endpoint>:5060</outbound-endpoint>
+		<outbound-prefix></outbound-prefix>
+		<outbound-endpoint>127.0.0.1:5070</outbound-endpoint>
 	</sms-aggregator>
 
 	<!-- The Fax Service is used to send and receive faxes on behalf of RestComm. -->
@@ -218,7 +219,7 @@
 
 	<!-- The Speech Recognizer is responsible for turning speech in to text. -->
 	<speech-recognizer class="org.mobicents.servlet.restcomm.asr.ISpeechAsr">
-		<api-key production="true"></api-key>
+		<api-key production="false"></api-key>
 	</speech-recognizer>
 
 	<!-- The Speech Synthesizer is responsible for turning text in to speech 

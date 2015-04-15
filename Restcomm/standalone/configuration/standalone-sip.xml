@@ -280,7 +280,7 @@
             <!--connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" enable-lookups="false" secure="true">
                 <ssl name="https" key-alias="KEY_ALIAS" password="SECRET" certificate-key-file="${jboss.server.config.dir}/keystore.jks" protocol="TLSv1,TLSv1.1,TLSv1.2"/>
             </connector-->
-            <virtual-server name="default-host" enable-welcome-root="false">
+            <virtual-server name="default-host" enable-welcome-root="true">
                 <alias name="localhost"/>
                 <alias name="example.com"/>
             </virtual-server>
@@ -298,10 +298,10 @@
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:weld:1.0"/>
         <subsystem xmlns="urn:org.mobicents:sip-servlets-as7:1.0" application-router="configuration/dars/mobicents-dar.properties" stack-properties="configuration/mss-sip-stack.properties" path-name="org.mobicents.ext" app-dispatcher-class="org.mobicents.servlet.sip.core.SipApplicationDispatcherImpl" concurrency-control-mode="SipApplicationSession" congestion-control-interval="-1">
-            <connector name="sip-udp" protocol="SIP/2.0" scheme="sip" socket-binding="sip-udp" use-static-address="true" static-server-address="127.0.0.1" static-server-port="5080"/>
-            <connector name="sip-tcp" protocol="SIP/2.0" scheme="sip" socket-binding="sip-tcp" use-static-address="true" static-server-address="127.0.0.1" static-server-port="5080"/>
-            <connector name="sip-tls" protocol="SIP/2.0" scheme="sip" socket-binding="sip-tls" use-static-address="true" static-server-address="127.0.0.1" static-server-port="5081"/>
-            <connector name="sip-ws" protocol="SIP/2.0" scheme="sip" socket-binding="sip-ws" use-static-address="true" static-server-address="127.0.0.1" static-server-port="5082"/>
+            <connector name="sip-udp" protocol="SIP/2.0" scheme="sip" socket-binding="sip-udp"/>
+            <connector name="sip-tcp" protocol="SIP/2.0" scheme="sip" socket-binding="sip-tcp"/>
+            <connector name="sip-tls" protocol="SIP/2.0" scheme="sip" socket-binding="sip-tls"/>
+            <connector name="sip-ws" protocol="SIP/2.0" scheme="sip" socket-binding="sip-ws"/>
         </subsystem>
     </profile>
     <interfaces>

@@ -25,11 +25,7 @@ angular.module('Rvd')
 }])
 .factory('rvdModel', function () {
 	function RvdModel() {
-		//this.test = function () {
-		//	console.log('testing from RvdModel: ' + this.kind);
-		//}
 		this.pack = function () {
-			//console.log("rvdModel:pack()");
 			var clone = angular.copy(this);
 			return clone;
 		}
@@ -65,6 +61,25 @@ angular.module('Rvd')
 	// ...
 	
 	return SayModel;
+}])
+.factory('logModel', ['rvdModel', function LogModelFactory(rvdModel) {
+	function LogModel(name) {
+		if (name)
+			this.name = name;
+		this.kind = 'log';
+		this.label = 'log';
+		this.title = 'log';
+		this.message = '';
+		this.iface = {};
+	}
+
+	LogModel.prototype = new rvdModel();
+	LogModel.prototype.constructor = LogModel;
+	// Add Say methods here
+	// SayModel.prototype.method1 - function ()
+	// ...
+	
+	return LogModel;
 }])
 .factory('playModel', ['rvdModel', function PlayModelFactory(rvdModel) {
 	function PlayModel(name) {
@@ -386,6 +401,9 @@ angular.module('Rvd')
 		this.title = 'external service';
 		this.url = '';
 		this.method = undefined;
+		this.contentType = undefined; 
+		this.requestBody = undefined;
+		this.populatePostBodyFromParams = undefined;
 		this.username = undefined;
 		this.password = undefined;
 		this.urlParams = [];
